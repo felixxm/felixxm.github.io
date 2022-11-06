@@ -1,0 +1,62 @@
+:root {
+    --body-fg: #333;
+    --body-bg: #def7e5;
+    --link-hover: #666;
+    --line: #b0b0b0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.75;
+    background-color: var(--body-bg);
+}
+header, main {
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+}
+footer {
+    clear: both;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+img.avatar {
+    padding-top: 15px;
+    height: 400px;
+    width: 400px;
+}
+img.icon {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 60px;
+    width: 60px;
+}
+img.tiny {
+    height: 16px;
+    width: 16px;
+}
+a {
+    text-decoration: none;
+    color: var(--body-fg);
+}
+a:focus, a:hover {
+    color: var(--link-hover);
+}
+h1, h2 {
+    color: var(--body-fg);
+    font-weight: normal;
+    padding: 5px;
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span.msg {
+    font-style: italic;
+}
