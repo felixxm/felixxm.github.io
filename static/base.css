@@ -1,7 +1,7 @@
 :root {
     --body-fg: #333;
-    --body-bg: #def7e5;
-    --link-hover: #666;
+    --body-bg: #e4f8ea;
+    --link-hover: #008000;
     --line: #b0b0b0;
 }
 html, body {
