@@ -60,3 +60,11 @@ h2 {
 span.msg {
     font-style: italic;
 }
+
+@media (max-width: 767px) {
+    img.avatar {
+        padding-top: 15px;
+        height: 350px;
+        width: 350px;
+    }
+}
