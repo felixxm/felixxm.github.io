@@ -12,7 +12,6 @@ body {
     background-color: var(--body-bg);
 }
 header, main {
-    text-align: center;
     border-bottom: 1px solid var(--line);
 }
 footer {
@@ -36,8 +35,11 @@ img.tiny {
     width: 16px;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--body-fg);
+}
+a.img {
+    text-decoration: none;
 }
 a:focus, a:hover {
     color: var(--link-hover);
@@ -57,8 +59,16 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+header, main.index {
+    text-align: center;
+}
 span.msg {
     font-style: italic;
+}
+li {
+    font-size: 1.125rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
